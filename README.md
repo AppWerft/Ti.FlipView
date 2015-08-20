@@ -23,33 +23,40 @@ var label = Ti.UI.createLabel();
 win.add(label);
 win.open();
 
-var pages = [];
-for (var i = 0; i < 10; i++) {
-pages.push(require('view'));
-}
 
 // constructor:
 var flipView = require('de.appwerft.iosflipview').createView({
-pages : pages,
-startPage : 5,
-transitionOrientation : 0|1,
-transitionDuration : 0.4,
-tapRecognitionMargin : 10,
-swipeThreshold : 120,
-swipeEscapeVelocity : 650,
-bounceRatio : 0.3, // default 0.3
-rubberBandRatio : 0.6666, // default 0.6666
-});
+    pages : [0,1,2,3,4,5,6].map.function() {return Ti.Ui.createView({}}
+);
+win.add(flipView);
+~~~
 
 Properties:
+----------
 flipView.numberOfPages  (read only)
+startPage,
+transitionOrientation,
+transitionDuration,
+tapRecognitionMargin,
+swipeThreshold,
+swipeEscapeVelocity,
+bounceRatio
+rubberBandRatio
 
-// events:
+
+Events:
+-------
+
+~~~
 flipView.addEventListener('change', function(e) { 
 console.log('Current page index is ' +e.source.currentPage);
 });
+~~~
 
-// methods:
+Methods after creating:
+----------------------
+
+~~~
 flipView.insertPageAfter(index,view);
 flipView.insertPageBefore(index,view)
 flipView.appendPage(view);
@@ -57,7 +64,7 @@ flipView.deletePage(index);
 flipView.bounceForward();
 flipView.bounceBackward();
 changeCurrentPage();
-
+~~~
 
 win.add(flipView);
 ~~~

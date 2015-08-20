@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.13
+version: 1.0.15
 apiversion: 2
 description: IosFlipview
 author: Stefan Gross

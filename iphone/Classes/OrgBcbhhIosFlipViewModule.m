@@ -1,29 +1,30 @@
 /**
- * TiFlipViewControler
+ * IosFlipview
  *
- * Created by Your Name
- * Copyright (c) 2015 Your Company. All rights reserved.
+ * Created by Stefan Gross
+ * Copyright (c) 2014 BCBHH. All rights reserved.
  */
 
-#import "DeAppwerftFlipviewconrolerModule.h"
+#import "OrgBcbhhIosFlipViewModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
+#import "MPFlipViewController.h"
 
-@implementation DeAppwerftFlipviewconrolerModule
+@implementation OrgBcbhhIosFlipViewModule
 
 #pragma mark Internal
 
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"50611572-841d-4110-a723-814d80c530c8";
+	return @"77816058-b63b-41c1-b645-b438e285cde4";
 }
 
 // this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
-	return @"de.appwerft.flipviewconroler";
+	return @"org.bcbhh.iosflipview";
 }
 
 #pragma mark Lifecycle
@@ -34,7 +35,7 @@
 	// you *must* call the superclass
 	[super startup];
 
-	NSLog(@"[INFO] %@ loaded",self);
+	NSLog(@"[INFO] Startup of Module Flipview 1.0.13 - %@ loaded",self);
 }
 
 -(void)shutdown:(id)sender
@@ -45,6 +46,7 @@
 
 	// you *must* call the superclass
 	[super shutdown:sender];
+    NSLog(@"[INFO] Shutdown of Module - %@ loaded",self);
 }
 
 #pragma mark Cleanup
@@ -52,7 +54,6 @@
 -(void)dealloc
 {
 	// release any resources that have been retained by the module
-	[super dealloc];
 }
 
 #pragma mark Internal Memory Management
@@ -85,23 +86,7 @@
 	}
 }
 
-#pragma Public APIs
-
--(id)example:(id)args
-{
-	// example method
-	return @"hello world";
-}
-
--(id)exampleProp
-{
-	// example property getter
-	return @"hello world";
-}
-
--(void)setExampleProp:(id)value
-{
-	// example property setter
-}
+MAKE_SYSTEM_PROP(TRANSITION_HORIZONTAL, MPFlipViewControllerOrientationHorizontal );
+MAKE_SYSTEM_PROP(TRANSITION_VERTICAL, MPFlipViewControllerOrientationVertical);
 
 @end

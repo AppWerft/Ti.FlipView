@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* OrgBcbhhIosFlipViewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* OrgBcbhhIosFlipViewModule.h */; };
+		24DD6CFA1134B3F500162E58 /* OrgBcbhhIosFlipViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* OrgBcbhhIosFlipViewModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* OrgBcbhhIosflipview_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* OrgBcbhhIosflipview_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D213517C19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D213517A19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.h */; };
+		D213517D19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D213517B19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.m */; };
+		D213518019D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.h in Headers */ = {isa = PBXBuildFile; fileRef = D213517E19D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.h */; };
+		D213518119D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = D213517F19D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.m */; };
+		D2168BDA19F28679008D4766 /* Source.h in Headers */ = {isa = PBXBuildFile; fileRef = D2168BD719F28679008D4766 /* Source.h */; };
+		D2168BDB19F28679008D4766 /* ViewSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D2168BD819F28679008D4766 /* ViewSource.h */; };
+		D2168BDC19F28679008D4766 /* ViewSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D2168BD919F28679008D4766 /* ViewSource.m */; };
+		D2168BE019F2958D008D4766 /* AdvancedPageFlipperPage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2168BDE19F2958D008D4766 /* AdvancedPageFlipperPage.h */; };
+		D2168BE119F2958D008D4766 /* AdvancedPageFlipperPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2168BDF19F2958D008D4766 /* AdvancedPageFlipperPage.m */; };
+		D2657F2D19F27DBB002ECA1C /* MPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2657F2319F27DBB002ECA1C /* MPAnimation.h */; };
+		D2657F2E19F27DBB002ECA1C /* MPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2657F2419F27DBB002ECA1C /* MPAnimation.m */; };
+		D2657F2F19F27DBB002ECA1C /* MPFlipEnumerations.h in Headers */ = {isa = PBXBuildFile; fileRef = D2657F2519F27DBB002ECA1C /* MPFlipEnumerations.h */; };
+		D2657F3019F27DBB002ECA1C /* MPFlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D2657F2619F27DBB002ECA1C /* MPFlipTransition.h */; };
+		D2657F3119F27DBB002ECA1C /* MPFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2657F2719F27DBB002ECA1C /* MPFlipTransition.m */; };
+		D2657F3219F27DBB002ECA1C /* MPFlipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2657F2819F27DBB002ECA1C /* MPFlipViewController.h */; };
+		D2657F3319F27DBB002ECA1C /* MPFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2657F2919F27DBB002ECA1C /* MPFlipViewController.m */; };
+		D2657F3419F27DBB002ECA1C /* MPTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D2657F2A19F27DBB002ECA1C /* MPTransition.h */; };
+		D2657F3519F27DBB002ECA1C /* MPTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2657F2B19F27DBB002ECA1C /* MPTransition.m */; };
+		D2657F3619F27DBB002ECA1C /* MPTransitionEnumerations.h in Headers */ = {isa = PBXBuildFile; fileRef = D2657F2C19F27DBB002ECA1C /* MPTransitionEnumerations.h */; };
+		D2657F3819F27DEF002ECA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2657F3719F27DEF002ECA1C /* UIKit.framework */; };
+		D2657F3A19F27E0E002ECA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2657F3919F27E0E002ECA1C /* CoreGraphics.framework */; };
+		D2657F3C19F27E1C002ECA1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2657F3B19F27E1C002ECA1C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = IosFlipview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* OrgBcbhhIosFlipViewModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgBcbhhIosFlipViewModule.h; path = Classes/OrgBcbhhIosFlipViewModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* OrgBcbhhIosFlipViewModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgBcbhhIosFlipViewModule.m; path = Classes/OrgBcbhhIosFlipViewModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgBcbhhIosFlipViewModuleAssets.h; path = Classes/OrgBcbhhIosFlipViewModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgBcbhhIosFlipViewModuleAssets.m; path = Classes/OrgBcbhhIosFlipViewModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* OrgBcbhhIosflipview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrgBcbhhIosflipview_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D213517A19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrgBcbhhIosFlipViewViewProxy.h; sourceTree = "<group>"; };
+		D213517B19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrgBcbhhIosFlipViewViewProxy.m; sourceTree = "<group>"; };
+		D213517E19D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrgBcbhhIosFlipViewView.h; sourceTree = "<group>"; };
+		D213517F19D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrgBcbhhIosFlipViewView.m; sourceTree = "<group>"; };
+		D2168BD719F28679008D4766 /* Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Source.h; path = Classes/Source.h; sourceTree = "<group>"; };
+		D2168BD819F28679008D4766 /* ViewSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewSource.h; path = Classes/ViewSource.h; sourceTree = "<group>"; };
+		D2168BD919F28679008D4766 /* ViewSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewSource.m; path = Classes/ViewSource.m; sourceTree = "<group>"; };
+		D2168BDE19F2958D008D4766 /* AdvancedPageFlipperPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedPageFlipperPage.h; sourceTree = "<group>"; };
+		D2168BDF19F2958D008D4766 /* AdvancedPageFlipperPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPageFlipperPage.m; sourceTree = "<group>"; };
+		D2168BE219F29B31008D4766 /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		D2657F2319F27DBB002ECA1C /* MPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAnimation.h; sourceTree = "<group>"; };
+		D2657F2419F27DBB002ECA1C /* MPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAnimation.m; sourceTree = "<group>"; };
+		D2657F2519F27DBB002ECA1C /* MPFlipEnumerations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFlipEnumerations.h; sourceTree = "<group>"; };
+		D2657F2619F27DBB002ECA1C /* MPFlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFlipTransition.h; sourceTree = "<group>"; };
+		D2657F2719F27DBB002ECA1C /* MPFlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFlipTransition.m; sourceTree = "<group>"; };
+		D2657F2819F27DBB002ECA1C /* MPFlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFlipViewController.h; sourceTree = "<group>"; };
+		D2657F2919F27DBB002ECA1C /* MPFlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFlipViewController.m; sourceTree = "<group>"; };
+		D2657F2A19F27DBB002ECA1C /* MPTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTransition.h; sourceTree = "<group>"; };
+		D2657F2B19F27DBB002ECA1C /* MPTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTransition.m; sourceTree = "<group>"; };
+		D2657F2C19F27DBB002ECA1C /* MPTransitionEnumerations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTransitionEnumerations.h; sourceTree = "<group>"; };
+		D2657F3719F27DEF002ECA1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2657F3919F27E0E002ECA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2657F3B19F27E1C002ECA1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libIosflipview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIosflipview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2657F3C19F27E1C002ECA1C /* QuartzCore.framework in Frameworks */,
+				D2657F3A19F27E0E002ECA1C /* CoreGraphics.framework in Frameworks */,
+				D2657F3819F27DEF002ECA1C /* UIKit.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libIosflipview.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* IosFlipview */ = {
+			isa = PBXGroup;
+			children = (
+				D2168BDD19F286AD008D4766 /* Sources */,
+				D2657F2219F27DBB002ECA1C /* Container */,
+				D213517A19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.h */,
+				D213517B19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.m */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = IosFlipview;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2657F3B19F27E1C002ECA1C /* QuartzCore.framework */,
+				D2657F3919F27E0E002ECA1C /* CoreGraphics.framework */,
+				D2657F3719F27DEF002ECA1C /* UIKit.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* OrgBcbhhIosFlipViewModule.h */,
+				24DD6CF81134B3F500162E58 /* OrgBcbhhIosFlipViewModule.m */,
+				D213517E19D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.h */,
+				D213517F19D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.m */,
+				D2168BE219F29B31008D4766 /* Protocols.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* OrgBcbhhIosflipview_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D2168BDD19F286AD008D4766 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D2168BD719F28679008D4766 /* Source.h */,
+				D2168BD819F28679008D4766 /* ViewSource.h */,
+				D2168BD919F28679008D4766 /* ViewSource.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D2657F2219F27DBB002ECA1C /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				D2168BDE19F2958D008D4766 /* AdvancedPageFlipperPage.h */,
+				D2168BDF19F2958D008D4766 /* AdvancedPageFlipperPage.m */,
+				D2657F2319F27DBB002ECA1C /* MPAnimation.h */,
+				D2657F2419F27DBB002ECA1C /* MPAnimation.m */,
+				D2657F2519F27DBB002ECA1C /* MPFlipEnumerations.h */,
+				D2657F2619F27DBB002ECA1C /* MPFlipTransition.h */,
+				D2657F2719F27DBB002ECA1C /* MPFlipTransition.m */,
+				D2657F2819F27DBB002ECA1C /* MPFlipViewController.h */,
+				D2657F2919F27DBB002ECA1C /* MPFlipViewController.m */,
+				D2657F2A19F27DBB002ECA1C /* MPTransition.h */,
+				D2657F2B19F27DBB002ECA1C /* MPTransition.m */,
+				D2657F2C19F27DBB002ECA1C /* MPTransitionEnumerations.h */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* OrgBcbhhIosflipview_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* OrgBcbhhIosFlipViewModule.h in Headers */,
+				D2657F3419F27DBB002ECA1C /* MPTransition.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.h in Headers */,
+				D2657F3219F27DBB002ECA1C /* MPFlipViewController.h in Headers */,
+				D2657F3019F27DBB002ECA1C /* MPFlipTransition.h in Headers */,
+				D213517C19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.h in Headers */,
+				D2657F3619F27DBB002ECA1C /* MPTransitionEnumerations.h in Headers */,
+				D2657F2F19F27DBB002ECA1C /* MPFlipEnumerations.h in Headers */,
+				D2657F2D19F27DBB002ECA1C /* MPAnimation.h in Headers */,
+				D2168BDB19F28679008D4766 /* ViewSource.h in Headers */,
+				D2168BE019F2958D008D4766 /* AdvancedPageFlipperPage.h in Headers */,
+				D213518019D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.h in Headers */,
+				D2168BDA19F28679008D4766 /* Source.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* IosFlipview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "IosFlipview" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IosFlipview;
+			productName = IosFlipview;
+			productReference = D2AAC07E0554694100DB518D /* libIosflipview.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "IosFlipview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* IosFlipview */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* IosFlipview */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2657F3119F27DBB002ECA1C /* MPFlipTransition.m in Sources */,
+				D2657F3519F27DBB002ECA1C /* MPTransition.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* OrgBcbhhIosFlipViewModule.m in Sources */,
+				D2168BDC19F28679008D4766 /* ViewSource.m in Sources */,
+				D2657F2E19F27DBB002ECA1C /* MPAnimation.m in Sources */,
+				D213518119D4ABD500C76CBA /* OrgBcbhhIosFlipViewView.m in Sources */,
+				D213517D19D4A66300C76CBA /* OrgBcbhhIosFlipViewViewProxy.m in Sources */,
+				D2657F3319F27DBB002ECA1C /* MPFlipViewController.m in Sources */,
+				D2168BE119F2958D008D4766 /* AdvancedPageFlipperPage.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* OrgBcbhhIosFlipViewModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* IosFlipview */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/OrgBcbhhIosflipview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrgBcbhhIosflipview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Iosflipview;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos8.1]" = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/OrgBcbhhIosflipview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrgBcbhhIosflipview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Iosflipview;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/OrgBcbhhIosflipview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrgBcbhhIosflipview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Iosflipview;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+					armv6,
+					armv7s,
+				);
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/OrgBcbhhIosflipview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrgBcbhhIosflipview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Iosflipview;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "IosFlipview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "IosFlipview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

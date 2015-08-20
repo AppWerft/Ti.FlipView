@@ -1,27 +1,27 @@
-# TiFlipViewControler Module
+# IosFlipview Module
 
 ## Description
 
 TODO: Enter your module description here
 
-## Accessing the TiFlipViewControler Module
+## Accessing the IosFlipview Module
 
 To access this module from JavaScript, you would do the following:
 
-    var tiflipviewcontroler = require("de.appwerft.flipviewconroler");
+    var iosflipview = require("org.bcbhh.iosflipview");
 
-The tiflipviewcontroler variable is a reference to the Module object.
+The iosflipview variable is a reference to the Module object.
 
 ## Reference
 
 TODO: If your module has an API, you should document
 the reference here.
 
-### tiflipviewcontroler.function
+### iosflipview.function
 
 TODO: This is an example of a module function.
 
-### tiflipviewcontroler.property
+### iosflipview.property
 
 TODO: This is an example of a module property.
 

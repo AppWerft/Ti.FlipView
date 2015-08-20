@@ -69,7 +69,7 @@ Register your module with your application by editing `tiapp.xml` and adding you
 Example:
 
 <modules>
-	<module version="0.1">de.appwerft.flipviewconroler</module>
+	<module version="0.1">org.bcbhh.iosflipview</module>
 </modules>
 
 When you run your project, the compiler will combine your module along with its dependencies
@@ -83,7 +83,7 @@ To use your module in code, you will need to require it.
 
 For example,
 
-	var my_module = require('de.appwerft.flipviewconroler');
+	var my_module = require('org.bcbhh.iosflipview');
 	my_module.foo();
 
 

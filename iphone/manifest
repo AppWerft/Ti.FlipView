@@ -5,13 +5,13 @@
 version: 1.0.13
 apiversion: 2
 description: IosFlipview
-author: Stefan Gross
-license: Private License
-copyright: Copyright (c) 2014 by Stefan Gross
+author: rainer Schleevoigt
+license: Public License
+copyright: Copyright (c) 2014 by Rainer Schleevoigt
 
 # these should not be edited
-name: IosFlipview
-moduleid: org.bcbhh.iosflipview
-guid: 77816058-b63b-41c1-b645-b438e285cde4
+name: iosFlipview
+moduleid: de.appwerft.iosflipview
+guid: 77816058-b63b-41c1-b645-b438e285cde5
 platform: iphone
 minsdk: 3.3.0.GA

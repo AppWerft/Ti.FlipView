@@ -18,7 +18,7 @@ for (var i = 0; i < 10; i++) {
 }
 
 // constructor:
-var flipView = require('org.bcbhh.iosflipvew').createView({
+var flipView = require('de.appwerft.iosflipvew').createView({
 	pages : pages,
 	startPage : 5,
 	transitionDuration : 0.4,

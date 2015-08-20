@@ -3,37 +3,34 @@
 // to test out the module and to provide instructions
 // to users on how to use it by example.
 
-
 // open a single window
 var win = Ti.UI.createWindow({
-	backgroundColor:'white'
+	backgroundColor : 'white'
 });
+
 var label = Ti.UI.createLabel();
 win.add(label);
 win.open();
 
-// TODO: write your module tests here
-var iosflipview = require('org.bcbhh.iosflipview');
-Ti.API.info("module is => " + iosflipview);
-
-label.text = iosflipview.example();
-
-Ti.API.info("module exampleProp is => " + iosflipview.exampleProp);
-iosflipview.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = iosflipview.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
+var pages = [];
+for (var i = 0; i < 10; i++) {
+	pages.push(require('view'));
 }
+
+var flipView = require('org.bcbhh.iosflipvew').createView({
+	pages : pages,
+	startPage : 5,
+	transitionDuration : 0.4,
+	tapRecognitionMargin : 10,
+	swipeThreshold : 120,
+	swipeEscapeVelocity : 650,
+	bounceRatio : 0.3, // default 0.3
+	rubberBandRatio : 0.6666, // default 0.6666
+});
+
+flipView.addEventListener('change', function(e) { 
+	console.log('Current page index is ' +e.source.currentPage;;
+});
+
+win.add(flipView);
 

@@ -33,15 +33,16 @@ win.add(flipView);
 
 Properties:
 ----------
-flipView.numberOfPages  (read only)
-startPage,
-transitionOrientation,
-transitionDuration,
-tapRecognitionMargin,
-swipeThreshold,
-swipeEscapeVelocity,
-bounceRatio
-rubberBandRatio
+
+* flipView.numberOfPages  (read only)
+* startPage,
+* transitionOrientation,
+* transitionDuration,
+* tapRecognitionMargin,
+* swipeThreshold,
+* swipeEscapeVelocity,
+* bounceRatio
+* rubberBandRatio
 
 
 Events:

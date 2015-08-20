@@ -14,17 +14,8 @@ USAGE
 -----
 
 ~~~
-// open a single window
 var win = Ti.UI.createWindow({
-backgroundColor : 'white'
-});
-
-var label = Ti.UI.createLabel();
-win.add(label);
 win.open();
-
-
-// constructor:
 var flipView = require('de.appwerft.iosflipview').createView({
     pages : [0,1,2,3,4,5,6].map.function() {return Ti.Ui.createView({}}
 );

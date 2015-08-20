@@ -17,6 +17,7 @@ for (var i = 0; i < 10; i++) {
 	pages.push(require('view'));
 }
 
+// constructor:
 var flipView = require('org.bcbhh.iosflipvew').createView({
 	pages : pages,
 	startPage : 5,
@@ -28,9 +29,13 @@ var flipView = require('org.bcbhh.iosflipvew').createView({
 	rubberBandRatio : 0.6666, // default 0.6666
 });
 
+// events:
 flipView.addEventListener('change', function(e) { 
-	console.log('Current page index is ' +e.source.currentPage;;
+	console.log('Current page index is ' +e.source.currentPage);
 });
+
+// methods:
+
 
 win.add(flipView);
 

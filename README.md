@@ -27,7 +27,7 @@ pages.push(require('view'));
 }
 
 // constructor:
-var flipView = require('org.bcbhh.iosflipvew').createView({
+var flipView = require('org.bcbhh.Iosflipview').createView({
 pages : pages,
 startPage : 5,
 transitionDuration : 0.4,
@@ -38,12 +38,21 @@ bounceRatio : 0.3, // default 0.3
 rubberBandRatio : 0.6666, // default 0.6666
 });
 
+Properties:
+flipView.numberOfPages  (read only)
+
 // events:
 flipView.addEventListener('change', function(e) { 
 console.log('Current page index is ' +e.source.currentPage);
 });
 
 // methods:
+flipView.insertPageAfter(index,view);
+flipView.insertPageBefore(index,view)
+flipView.appendPage(view);
+flipView.deletePage(index);
+flipView.bounceForward();
+flipView.bounceBackward();
 
 
 win.add(flipView);

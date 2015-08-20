@@ -50,23 +50,18 @@ Events:
 
 ~~~
 flipView.addEventListener('change', function(e) { 
-console.log('Current page index is ' +e.source.currentPage);
+console.log('Current page index is ' + e.source.currentPage);
 });
 ~~~
 
 Methods after creating:
 ----------------------
 
-~~~
-flipView.insertPageAfter(index,view);
-flipView.insertPageBefore(index,view)
-flipView.appendPage(view);
-flipView.deletePage(index);
-flipView.bounceForward();
-flipView.bounceBackward();
-changeCurrentPage();
-~~~
-
-win.add(flipView);
-~~~
+* flipView.insertPageAfter(index,view);
+* flipView.insertPageBefore(index,view)
+* flipView.appendPage(view);
+* flipView.deletePage(index);
+* flipView.bounceForward();
+* flipView.bounceBackward();
+* changeCurrentPage();
 

@@ -16,7 +16,7 @@ USAGE
 ~~~
 var win = Ti.UI.createWindow({
 win.open();
-var flipView = require('de.appwerft.iosflipview').createView({
+var flipView = require('ti.flipview').createView({
     pages : [0,1,2,3,4,5,6].map.function() {return Ti.Ui.createView({}}
 );
 win.add(flipView);

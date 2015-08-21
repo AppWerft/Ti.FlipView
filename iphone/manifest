@@ -2,16 +2,16 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.13
+version: 1.0.14
 apiversion: 2
-description: IosFlipview
-author: rainer Schleevoigt
+description: Flipview
+author: Rainer Schleevoigt
 license: Public License
 copyright: Copyright (c) 2014 by Rainer Schleevoigt
 
 # these should not be edited
-name: iosFlipview
-moduleid: de.appwerft.iosflipview
-guid: 77816058-b63b-41c1-b645-b438e285cde5
+name: Flipview
+moduleid: ti.flipview
+guid: 77816058-b63b-41c1-b645-b438e285cde6
 platform: iphone
 minsdk: 3.3.0.GA

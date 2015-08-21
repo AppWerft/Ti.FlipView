@@ -35,7 +35,7 @@
 	// you *must* call the superclass
 	[super startup];
 
-	NSLog(@"[INFO] Startup of Module Flipview 1.0.13 - %@ loaded",self);
+	NSLog(@"[INFO] Startup of Module Flipview 1.0.14 - %@ loaded",self);
 }
 
 -(void)shutdown:(id)sender

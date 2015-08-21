@@ -5,9 +5,7 @@ About
 -----
 This is the Titanium version of [Mpospese/mpflipviewcontroller](https://github.com/Mpospese/mpflipviewcontroller)
 
-![](https://raw.githubusercontent.com/AppWerft/TiFlipViewControler/master/flipviewcontroler.gif)
-
-It is the iOS version of [Manu's TiAndroidFlip](https://github.com/manumaticx/TiAndroidFlip)
+![](https://raw.githubusercontent.com/AppWerft/TiFlipViewControler/master/flipviewcontroler.gif) for iOS and a fork of the Android version of [Manu's TiAndroidFlip](https://github.com/manumaticx/TiAndroidFlip)
 
 
 USAGE

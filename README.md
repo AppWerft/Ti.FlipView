@@ -7,6 +7,8 @@ This is the Titanium version of [Mpospese/mpflipviewcontroller](https://github.c
 
 ![](https://raw.githubusercontent.com/AppWerft/TiFlipViewControler/master/flipviewcontroler.gif) 
 
+![](https://raw.githubusercontent.com/manumaticx/TiAndroidFlip/master/documentation/demo.gif)
+
 
 Currently we have different API for both platform. Please look into to  platform folders.
 

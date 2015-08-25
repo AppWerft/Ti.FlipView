@@ -7,7 +7,7 @@
 var win = Ti.UI.createWindow({
 	backgroundColor : 'white'
 });
-
+   
 var label = Ti.UI.createLabel();
 win.add(label);
 win.open();

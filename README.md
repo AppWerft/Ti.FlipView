@@ -38,7 +38,7 @@ Properties:
 * rubberBandRatio
 
 
-Events:
+Events (ioS):
 -------
 
 ~~~
@@ -47,7 +47,7 @@ console.log('Current page index is ' + e.source.currentPage);
 });
 ~~~
 
-Methods after creating:
+Methods after creating (ioS):
 ----------------------
 
 * flipView.insertPageAfter(index,view);
@@ -58,3 +58,53 @@ Methods after creating:
 * flipView.bounceBackward();
 * changeCurrentPage();
 
+Crossplatform
+-------------
+
+For using in both platforms currently you can use this javascript wrapper:
+~~~
+
+module.exports = function() {
+    var options = arguments[0] || {};
+    var total = options.pages.length;
+    if (Ti.Android) {
+        var FlipModule = require('de.manumaticx.androidflip');
+        var self = FlipModule.createFlipView({
+        orientation : FlipModule.ORIENTATION_HORIZONTAL,
+        overFlipMode : FlipModule.OVERFLIPMODE_GLOW,
+        views : options.pages,
+        currentPage : (options.startPage) ? options.startPage : 0,
+        total : total
+    });
+    self.addEventListener('flipped', function(_e) {
+        options && options.onflipend({
+                current : _e.index,
+                pagecount : total,
+            });
+        });
+        return self;
+} else {
+    var FlipModule = require('org.bcbhh.IosFlipView');
+    var self = FlipModule.createView({
+        startPage : (options.startPage) ? options.startPage : undefined,
+        transitionDuration : 0.4,
+        pages : options.pages,
+        tapRecognitionMargin : 1,
+        swipeThreshold : 120,
+        swipeEscapeVelocity: 650,
+        bounceRatio: 0.3,  // default 0.3
+        rubberBandRatio: 0.6666, // default 0.6666
+        total : total
+    });
+    self.addEventListener('change', function(_e) {
+        options.onflipend && options.onflipend({
+            current : _e.source.currentPage,
+            pagecount : total
+        });
+    });
+    return self;
+    }
+};
+~~~
+
+In the future the API wil be the same syntax

@@ -63,11 +63,10 @@ Crossplatform
 
 For using in both platforms currently you can use this javascript wrapper:
 ~~~
-
+var FlipModule = require('ti.flipview');
 module.exports = function() {
     var options = arguments[0] || {};
     var total = options.pages.length;
-    var FlipModule = require('ti.flipview');
     if (Ti.Android) {
         var self = FlipModule.createFlipView({
         orientation : FlipModule.ORIENTATION_HORIZONTAL,

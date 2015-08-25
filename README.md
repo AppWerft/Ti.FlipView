@@ -68,6 +68,7 @@ module.exports = function() {
     var options = arguments[0] || {};
     var total = options.pages.length;
     var self = FlipModule.createFlipView({
+        // Android:
         orientation : FlipModule.ORIENTATION_HORIZONTAL,
         overFlipMode : FlipModule.OVERFLIPMODE_GLOW,
         views : options.pages,
@@ -75,13 +76,13 @@ module.exports = function() {
         total : total
         startPage : (options.startPage) ? options.startPage : undefined,
         transitionDuration : 0.4,
+        // iOS:
         pages : options.pages,
         tapRecognitionMargin : 1,
         swipeThreshold : 120,
         swipeEscapeVelocity: 650,
         bounceRatio: 0.3,  // default 0.3
         rubberBandRatio: 0.6666, // default 0.6666
-        total : total
     });
     self.addEventListener('flipped', function(_e) { // Android
         options && options.onflipend({

@@ -67,8 +67,8 @@ For using in both platforms currently you can use this javascript wrapper:
 module.exports = function() {
     var options = arguments[0] || {};
     var total = options.pages.length;
+    var FlipModule = require('ti.flipview');
     if (Ti.Android) {
-        var FlipModule = require('de.manumaticx.androidflip');
         var self = FlipModule.createFlipView({
         orientation : FlipModule.ORIENTATION_HORIZONTAL,
         overFlipMode : FlipModule.OVERFLIPMODE_GLOW,
@@ -84,7 +84,6 @@ module.exports = function() {
         });
         return self;
 } else {
-    var FlipModule = require('org.bcbhh.IosFlipView');
     var self = FlipModule.createView({
         startPage : (options.startPage) ? options.startPage : undefined,
         transitionDuration : 0.4,

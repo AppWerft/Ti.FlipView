@@ -1,5 +1,7 @@
-Ti.FlipViewControler ![](https://camo.githubusercontent.com/ecc6562b9e8446bbf967b69b4180fef9080068b3/687474703a2f2f7777772d7374617469632e61707063656c657261746f722e636f6d2f6261646765732f746974616e69756d2d6769742d62616467652d73712e706e67)
+Ti.FlipView ![](https://camo.githubusercontent.com/ecc6562b9e8446bbf967b69b4180fef9080068b3/687474703a2f2f7777772d7374617469632e61707063656c657261746f722e636f6d2f6261646765732f746974616e69756d2d6769742d62616467652d73712e706e67)
 ====================
+
+> This module attempts to combine two seperate modules for iOS and Android into one. It is not yet working cross-plattform. Please do not use in production. 
 
 About
 -----

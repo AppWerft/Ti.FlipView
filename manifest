@@ -1,8 +1,8 @@
-#appname: IosFlipview
-#publisher: sg
+#appname: TiFlipView
+#publisher: AppWerft
 #url: 
 #image: appicon.png
-#appid: de.appwerft.iosflipview
-#desc: undefined
+#appid: ti.flipview
+#desc: FlipView for Titanium
 #type: module
 #guid: 6cb12b48-b888-4119-9b10-590ad49ea765

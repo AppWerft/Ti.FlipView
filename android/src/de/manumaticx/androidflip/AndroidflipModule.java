@@ -5,7 +5,7 @@ import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.titanium.TiApplication;
 
 
-@Kroll.module(name="Androidflip", id="de.manumaticx.androidflip")
+@Kroll.module(name="Androidflip", id="ti.flipview")
 public class AndroidflipModule extends KrollModule
 {
 	@Kroll.constant public static final String ORIENTATION_VERTICAL = "vertical";
